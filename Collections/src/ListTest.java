@@ -12,6 +12,7 @@ public class ListTest implements Comparable<ListTest> {
 	String leadActor;
 	
 	ListTest(String t, String g, String a) {
+		System.out.println("INSIDEE");
 		title = t; this.genre = g; this.leadActor = a;
 	}
 	
